@@ -1,0 +1,45 @@
+.header {
+  background-color: #535657;
+}
+
+.main-img {
+  width: 40px;
+}
+
+.navbar-text {
+  margin-left: 1vw;
+  color: #B7ADCF;
+}
+
+.navbar-text:hover {
+  color: #988db3;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+body {
+  background-color: #F4FAFF !important;
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.title {
+  color: #535657;
+  text-align: center;
+  font-size: 2em;
+}
+
+p,
+li {
+  color: #4F646F;
+  font-size: 1.5em;
+}
+
+.body-main-left {
+  border-right: 1px solid rgb(222, 231, 231);
+}
+
+.body-main-right {
+  border-left: 1px solid rgb(222, 231, 231);
+}
