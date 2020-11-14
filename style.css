@@ -36,10 +36,12 @@ li {
   font-size: 1.5em;
 }
 
-.body-main-left {
-  border-right: 1px solid rgb(222, 231, 231);
-}
+@media only screen and (min-width: 577px;) {
+  .body-main-left {
+    border-right: 1px solid rgb(222, 231, 231);
+  }
 
-.body-main-right {
-  border-left: 1px solid rgb(222, 231, 231);
+  .body-main-right {
+    border-left: 1px solid rgb(222, 231, 231);
+  }
 }
