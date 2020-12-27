@@ -27,7 +27,7 @@
       rel="stylesheet"
     />
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="/server.js" defer></script>
   </head>
   <body>
     <!--boostrap import stuff-->
@@ -76,15 +76,24 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-text" href="/contact_me.html">Contact Me</a>
+            <a class="nav-link navbar-text" href="/contact_me.html"
+              >Contact Me</a
+            >
           </li>
         </ul>
       </div>
     </nav>
     <br />
-    <h3 class="title">
-      Contact Me
-    </h3>
-    
+
+    <main>
+      <h3 class="title">Contact Me</h3>
+      <form class="contact-form" action="contactform.php" method="post">
+        <input type="text" name="name" placeholder="Full name" class="form-control">
+        <input type="text" name="mail" placeholder="Your e-mail" required class="form-control">
+        <input type="text" name="subject" placeholder="Subject" required class="form-control">
+        <textarea name="message" placeholder="Message" required class="form-control"></textarea>
+        <button type="submit" name="submit">Send Mail</button>
+      </form>
+    </main>
   </body>
 </html>
